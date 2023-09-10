@@ -1,0 +1,123 @@
+.bg-image {
+  /* The image used */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7a49hpPX2O9XMbfHXh_OZVFJhIQqDYTfsFqdCRKeDyip3PC8btbVa3PCLouaab6z401A&usqp=CAU");
+  filter: blur(8px);
+  -webkit-filter: blur(50px);
+  /* height: 775px;
+  width: 100%; */
+
+}
+
+.div1 {
+  position: absolute;
+  z-index: -1;
+}
+
+.div2 {
+  position: absolute;
+  z-index: 1;
+}
+
+* {
+  margin: 0;
+  color: rgb(255, 255, 255);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.main-div {
+  display: grid;
+  grid-template-columns: 350px 100px;
+  /* margin-top: -20px; */
+  gap: 10px;
+  /* background-color: #99bbff !important; */
+  width: 1020px;
+}
+
+.div-align,
+h1 {
+  /* background-color: #99bbff !important; */
+
+}
+
+.left-column {
+  padding: 15px;
+  width: 420px;
+  border-radius: 0px 0px 40px 0px;
+  /* background-color: #547ed1 !important; */
+}
+
+.right-column {
+  width: 800px;
+  margin-bottom: -10px;
+  font-size: 15px;
+  /* padding: 10px; */
+  /* background-color: #99bbff !important; */
+}
+
+.bg-trasparent {
+  /* background-color: #547ed1 !important; */
+  margin-left: 2px;
+}
+
+hr {
+  width: 280px;
+  margin-left: 2px;
+}
+
+h2 {
+  font-family: cursive;
+  /* background-color: #99bbff !important; */
+  margin-left: 2px;
+}
+
+h3 {
+  /* background-color: #547ed1 !important; */
+  font-family: cursive;
+  margin-left: 0px;
+}
+
+ul {
+  padding-left: 20px;
+  /* background-color: #99bbff !important; */
+}
+
+li,
+p {
+  font-family: cursive;
+  font-size: 20px;
+  margin-left: 8px;
+  /* background-color: #99bbff !important; */
+}
+
+.head {
+  /* background-color: #99bbff !important; */
+  width: 1210px;
+}
+
+.left-head {
+  /* background-color: #99bbff !important; */
+  height: 280px;
+  width: 1210px;
+  margin-left: 0px;
+}
+
+h1 {
+  height: 120px;
+  margin-top: 10px;
+  padding: 80px 50px;
+  font-family: cursive;
+  font-size: 55px;
+  border-radius: 70px 70px 70px 0px;
+  /* background-color: #547ed1 !important; */
+}
+
+/* img {
+  margin-top: -250px;
+  float: right;
+  width: 200px;
+  margin-right: 285px;
+  height: 200px;
+  border-radius: 100px;
+  border: black solid 4px;
+} */
